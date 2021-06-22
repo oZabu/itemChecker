@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background:white;
+    background-size:200% 500% ;
+    color: #1A4A43;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: sans-serif;
+    
+}
+
+#marginTop{
+    margin-top: 0;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+
+.headerIN {
+    padding: 1rem ;
+    border-bottom: 3px solid #CDF46E;
+
+    background:linear-gradient(150deg,#6cd0ff,#1c2e4c);
+    border-radius: 0 0 20px 20px;
+    background-size:200% 200% ;
+    box-shadow: 0 0 80px gray;
+    color: #1A4A43;
+    animation: gradient 15s ease infinite;
+    
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#theHeader{
+    display: flex;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.checkbox-display{
+    display: none;
+}
+
+#itemName{
+    width: 200px; /*親要素いっぱい広げる*/
+    padding: 10px 3px; /*ボックスを大きくする*/
+    font-size: 13px;
+    border-radius: 3px; /*ボックス角の丸み*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+    border-radius: 20px 20px 20px 20px;
+    
+   
+}
+
+#setTime{
+    width: 75px; /*親要素いっぱい広げる*/
+    padding: 10px 1px; /*ボックスを大きくする*/
+    font-size: 13px;
+    border-radius: 3px; /*ボックス角の丸み*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+#addButton{
+    background: #4ea7d1;
+    color: #1A4A43;
+
+}
+
+input{
+    background: #4ea7d1;
+    padding: 10px; /*ボックスを大きくする*/
+    font-size: 13px;
+    border-radius: 3px; /*ボックス角の丸み*/
+    border-style: inset;
+    border-width: 2px 2px;
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+    border-radius: 20px 20px 20px 20px;
+    height: 15px;
+}
+
+
+button{
+    background: linear-gradient(150deg,#6cd0ff,#3781a3);
+    color: #1A4A43;
+    height: 25px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.itemNameCss{
+    background: linear-gradient(175deg,#6cd0ff,#304a77);
+    box-shadow:0 3px 50px #5778b1;
+    padding: 1px 10px;
+    border-radius: 10px 10px 10px 10px;    
+}
+
+.EINC{
+    width: 200px;
+}
+.ETC{
+    width: 80px;
+    padding: 10px 1px;
+}
+
