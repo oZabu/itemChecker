@@ -2,8 +2,7 @@
 
 //使い方&注意
 confirm("⚠️このwebサイトは試験的な物なので、実際に使うことは出来ません。");
-confirm("使い方はこちら⇨URL");
-confirm("使い方はこちら⇨URL");
+confirm("使い方はこちら⇨URLあとで貼ります");
 
 function changeColor() {
     const changeColor = document.getElementById("changeColor");
