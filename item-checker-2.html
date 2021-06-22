@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="checkRabbit-icon.png">
+    <title>β版 忘れ物チェッカー</title>
+    <link rel="stylesheet" href="item-checker-2.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&family=Noto+Sans+JP:wght@100&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <header id="headerIn" class="headerIN">
+        <div id="theHeader">
+
+            <label for="changeColor">
+                <img id="logo" src="checkRabbit-headerLogo.png">
+            </label>
+
+            <h2 id="marginTop">忘れ物チェッカー</h2>
+
+            <input id="changeColor" class="checkbox-display" type="checkbox">
+
+        </div>
+        <p id="nowTime">⬡</p>
+        <input id="itemName" type="text" size="25" maxlength="20" placeholder="アイテム名を入力してください">
+        <input id="setTime" type="time">
+        <button id="addButton">追加</button>
+    </header>
+
+
+    <script src="item-checker-2.js"></script>
+
+
+    <div id="Plist"></div>
+
+    <div id="clickCount"></div>
+    <div id="backTime"></div>
+
+
+
+</body>
+
+</html>
