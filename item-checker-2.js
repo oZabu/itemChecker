@@ -166,7 +166,7 @@ addButton.onclick = () => {
         editItemName.setAttribute('class', 'EINC');
         editItemName.setAttribute('type', 'text');
         editItemName.setAttribute('size', '25');
-        editItemName.setAttribute('placeholder', 'アイテム名を入力して下さい' + editText);
+        editItemName.setAttribute('placeholder', 'アイテム名を入力して下さい');
         var editItemNameDiv = document.getElementById('list' + editText);
         document.body.insertBefore(editItemName, editItemNameDiv);
 
@@ -357,7 +357,7 @@ function itemeditdone() {
             editItemName.setAttribute('class', 'EINC');
             editItemName.setAttribute('type', 'text');
             editItemName.setAttribute('size', '25');
-            editItemName.setAttribute('placeholder', 'アイテム名を入力して下さい' + editItemC);
+            editItemName.setAttribute('placeholder', 'アイテム名を入力して下さい');
             var editItemNameDiv = document.getElementById('list' + editItemC);
             document.body.insertBefore(editItemName, editItemNameDiv);
 
