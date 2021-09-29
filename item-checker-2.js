@@ -1,9 +1,9 @@
 'use strict';
 
 //使い方&注意
-confirm("⚠注意：このwebサイトは試験的な物なので、実際に使うことは出来ません。");
-confirm("ブラウザによっては、上手く表示されない場合があります");
-confirm("使い方はこちら⇨https://ozabu.github.io/item-checker-guide/item-checker-guide.html");
+// confirm("⚠注意：このwebサイトは試験的な物なので、実際に使うことは出来ません。");
+// confirm("ブラウザによっては、上手く表示されない場合があります");
+// confirm("使い方はこちら⇨https://ozabu.github.io/item-checker-guide/item-checker-guide.html");
 
 function changeColor() {
     const changeColor = document.getElementById("changeColor");
